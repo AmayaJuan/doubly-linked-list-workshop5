@@ -34,7 +34,7 @@ do
             Console.WriteLine("List sorted descending.");
             break;
         case 5:
-            Console.WriteLine("Mode(s): " + string.Join(", ", Stadistics.Nodes(list)));
+            Console.WriteLine(Stadistics.NodeText(list));
             break;
         case 6:
             Console.WriteLine(Stadistics.Chart(list));
